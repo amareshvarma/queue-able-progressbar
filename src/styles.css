@@ -1,0 +1,16 @@
+.bar {
+  background-color: rgb(224, 215, 215);
+  height: 10px;
+  margin-top: 10px;
+}
+
+.content {
+  background-color: rgb(130, 173, 56);
+  height: 100%;
+  transform: scaleX(0);
+  transition: transform 2000ms ease-in;
+  transform-origin: left;
+}
+.fill {
+  transform: scaleX(1);
+}
